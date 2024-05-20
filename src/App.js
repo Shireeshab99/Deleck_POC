@@ -7,6 +7,7 @@ import Screens from './screens'
 
 function App() {
   return (
+    //Routing paths
     <BrowserRouter>
     <Routes>
         <Route path="/" element={<List/>} />
